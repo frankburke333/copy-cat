@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+header {
+  background-color: #06D6A0;
+  width: 100%;
+  color: white;
+  margin-bottom: 1px;
+  overflow:hidden;
+
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  display: block;
+
+}
+
+.navbar a {
+  font-size: 26px;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.container {
+  width: 900px;
+  margin:auto;
+}
+
+.welcome {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #26547C;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+
+}
+
+
+
+.big{
+max-width: 80%;
+float: left;
+}
+
+.welcome h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  font-size: 24px;
+
+}
+
+.cats {
+  background-color: #FFD166;
+}
+
+
+.product-pics {
+  display: inline-block;
+}
+
+.product-pics img {
+  width: 32%;
+  border: 5px solid black;
+
+}
+
+.bottom {
+  background-color: #26547C;
+  color: white;
+  font-size: 21px;
+}
+
+.bottom h3 {
+  float:left;
+  width: 33%;
+  text-align: center;
+  color: #EF476F;
+}
+
+.bottom p {
+  padding: 30px;
+}
+
+
+footer {
+  background-color: #06D6A0;
+  color: black;
+  font-size: 22px;
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+}
